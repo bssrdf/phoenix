@@ -1,6 +1,5 @@
 /* eslint-disable */
 // --- Libraries and Plugins ---
-import '@babel/polyfill'
 import Vue from 'vue'
 
 // --- Components ---

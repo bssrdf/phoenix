@@ -62,8 +62,7 @@ module.exports = {
   ],
   entry: {
     core: [
-      'core-js/modules/es6.promise',
-      'core-js/modules/es6.array.iterator',
+      '@babel/polyfill',
       './src/phoenix.js',
       './node_modules/material-design-icons-iconfont/dist/material-design-icons.css',
       './static/fonts/ocft/css/ocft.css'
