@@ -76,7 +76,7 @@ module.exports = {
     rules: [{
       test: /\.js?$/,
       exclude: [/node_modules/, /apps/],
-      include: [/src/],
+      include: [/node_modules\/js-owncloud-client/, /src/],
       use: [{
         loader: 'babel-loader'
       }]

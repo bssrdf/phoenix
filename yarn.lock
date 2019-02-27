@@ -1427,7 +1427,14 @@ babel-loader@^8.0.5:
     mkdirp "^0.5.1"
     util.promisify "^1.0.0"
 
-babel-runtime@^6.26.0:
+babel-plugin-transform-es2015-arrow-functions@^6.22.0:
+  version "6.22.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-arrow-functions/-/babel-plugin-transform-es2015-arrow-functions-6.22.0.tgz#452692cb711d5f79dc7f85e440ce41b9f244d221"
+  integrity sha1-RSaSy3EdX3ncf4XkQM5BufJE0iE=
+  dependencies:
+    babel-runtime "^6.22.0"
+
+babel-runtime@^6.22.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
@@ -5746,9 +5753,9 @@ output-file-sync@^2.0.0:
     mkdirp "^0.5.1"
 
 owncloud-design-system@^1.0.0-411:
-  version "1.0.0-417"
-  resolved "https://registry.yarnpkg.com/owncloud-design-system/-/owncloud-design-system-1.0.0-417.tgz#d61f57bc9643c666cfe20c1dfc879535b706b1b2"
-  integrity sha512-KJ+EDKrX+truPux4eZ2TIWIqcVs0ngTbRCv2HUdnnxcTARy+DVxhSStz2Y2kqiOHbqwQrWM5eS2N8j9IIdACdA==
+  version "1.0.0-428"
+  resolved "https://registry.yarnpkg.com/owncloud-design-system/-/owncloud-design-system-1.0.0-428.tgz#dce219acb403199fd6bc9b0a9557e72d64a7806a"
+  integrity sha512-pQlP4M6p1kgmlG4PArADj3DZucI7Yt4VkYcxH+FtLavKL8s7KTkpOmqopEyvPP4UhyvuHRyKcjItClka+0nqJg==
   dependencies:
     lodash "^4.17.11"
     mini-css-extract-plugin "^0.5.0"

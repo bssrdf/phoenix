@@ -79,6 +79,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
     "eslint-loader": "^2.1.2",
     "js-owncloud-client": "github:owncloud/js-owncloud-client#master",
     "oidc-client": "^1.7.0",
